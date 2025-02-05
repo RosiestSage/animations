@@ -1,0 +1,37 @@
+header, footer{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+}
+
+aside nav{
+    margin: 20px;
+}
+
+aside nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+aside {
+    background-color: lightsalmon;
+    width: 20%;
+    float: left;
+}
+
+main{
+    background-color: lightgreen;
+    float: left;
+    width: 74%;
+    padding: 3%;
+}
+
+footer{
+    clear: both;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="kartya">
+        <div class="felso">
+            <div id="balfelso">
+                <img src="pikk.png" class="balalsokep" alt="">
+            </div>
+            <div id="jobbfelso"  >
+                <p class="sarkiszoveg">9</p>
+            </div>
+        </div>
+
+        <div id="asz">
+            <div id="aszbetu"  >
+                <p class="asz_betu">A</p>
+            </div>
+            <div id="balfelso">
+                <img src="pikk.png" class="balalsokep" alt="">
+            </div>
+        </div>
+
+        <div id="kep">
+            <img src="linux.png" alt="">
+        </div>
+        
+        <div class="also">
+            <div id="balalso"  >
+                <p class="sarkiszoveg">9</p>
+            </div>
+            <div id="jobbalso">
+                <img src="pikk.png" class="jobbalsokep" alt="">
+            </div>
+        </div>
+
+        <div id="asz_also">
+            <div id="aszbetu">
+                <p class="asz_betu">A</p>
+            </div>
+            <div id="jobbalso">
+                <img src="pikk.png" class="jobbalsokep" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="adatok">
+        <h1>Tervezés</h1>
+        <div>
+            <label for="select">Válassz jelet</label>
+            <select name="select" id="select" onchange="jelValaszt()">
+                <option value="pikk">Pikk</option>
+                <option value="karo">Káró</option>
+                <option value="kor">Kőr</option>
+                <option value="treff">Treff</option>
+                <option value="linux">Linux</option>
+            </select>
+        </div>
+        <div>
+            <label for="szamok">Szám</label>
+            <input id="szamok" name="szamok" type="range" min="2" max="10" value="9" onchange="szamValtozas()">
+        </div>
+        <div>
+            <label for="asz-e">Ász</label>
+            <input name="asz-e" id="asz-e" type="checkbox" onclick="asz()">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

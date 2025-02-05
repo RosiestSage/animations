@@ -1,0 +1,57 @@
+Javascript keretrendszerek
+
+Definicó
+Miért érdemes?
+Ön melyiket választaná?
+Mi az a JavaScript keretrendszer?
+A JavaScript keretrendszer egy platform, azaz felület JavaScript alkalmazások készítésére. A JavaScript keretrendszerek könyvtárakat biztosítanak a gyakran használt függvényekhez, műveletekhez. Ezáltal, hogy rengeteg dolgot készen kapunk, rengeteg időt spórolhatunk az alkalmazás elkészítése során. Illetve "miért találjuk fel újból a kereket", ha valaki egyszer már megtette és mi is felhasználhatjuk azt?
+
+Szóval elsősorban a keretrendszerek az időigényes, fárasztó tevékenységek elvégzésével töltött időt spórolják meg számunkra, illetve használatukkal weboldalunkat skálázhatóbbá, könnyebben karbantarthatóbbá és szabványosabbá tehetjük.
+
+Miért érdemes keretrendszert használni?
+Alább összefoglalunk pár szempontot, amely miatt megéri JS keretrendszert használni.
+
+Gyorsabb fejlesztés
+A JavaScript keretrendszerekbe (framework) beépített könyvtáraknak (library) és eszközöknek hála a programozási idő nagyban lerövidül.
+
+A keretrendszerek számtalan beépített függvényt tartalmaznak, amelyeknek hála nekünk kevesebbet kell programoznunk.
+
+Könyvtárak gyakori feladatokhoz
+Egy weboldal elkészítése során rengeteg olyan feladat van, ami egyáltalán nem egyedi, hanem gyakran előforduló rutinfeladat.Miért írnánk meg újra és újra ugyanazokat a műveleteket végrehajtó kódokat, ha kiválthatjuk őket egy a könyvtárban már szereplő kóddal.
+
+Nagyobb biztonság
+Több JavaScript weboldalt fenyegető veszély létezik, melyek ellen, ha nem tesszük meg a megfelelő biztonsági intézkedéseket, akkor a weboldalunk sebezhető lesz. Egy JS keretrendszer, framework használatával nagyban csökkenthetjük az esélyét egy esetleges fertőződésnek.
+
+Helyes kódolási praktikák kialakítása
+A JavaScript keretrendszerek általában követik a legjobb praktikákat a kódolás és az alkalmazás fájljainak elhelyezéseire vonatkozóan. Segítenek a kódot, a képeket, a beállításokat és egyéb különálló erőforrásokat megfelelően felépített mappákba rendezni, hogy a programunk fájlszerkezete könnyebben átlátható legyen.
+
+Könnyebb karbantartás
+Egy JS keretrendszerrel elkészített weboldal karcsúbb kódbázist eredményez, mely kevesebb karbantartást igényel. Emellett nem kell aggódnod a keretrendszer frissítése, karbantartása miatt, mivel ezt a keretrendszer fejlesztői megteszik helyetted.
+
+Jobb csapatmunka
+Egy framework egyértelmű alapszabályokat határoz meg a projekt és a résztvevői számára, mely nagyban növeli a csapatmunka minőségét. 
+
+A 3 legelterjedtebb keretrendszer
+Angular logo
+Angular
+Az Angular-nak mindenképp az elsők között kell szerepelni az említett JavaScript keretrendszerek között, hiszen az egyik legnépszerűbb és legjobb JS keretrendszer. Az Angular egy népszerű nyíltforráskódú front-end framework.
+
+Főbb tulajdonságok:
+képes nagy teljesítményű weboldalak elkészítésére több operációs rendszert támogat fejlett API-t kínál intelligens kódkiegészítés azonnali hibafelismerés tökéletes szinkron a modell és a nézet között kicsit bonyolult sablonok Hivatalos weboldal
+Angular logo
+React
+A React is egy rendkívül népszerű JS keretrendszer Magyarországon, melynek hivatalos weboldalán még magyar nyelvű útmutató is található, így ideális lehet angolul nem tudóknak is.
+
+Főbb tulajdonságok:
+virtuális DOM újrafelhasználható komponensek egyszerű megtanulni használni sebességoptimalizáció kisméret gyors tesztelés és hibakeresés gyakori frissítések egyirányú adatkötés Hivatalos weboldal
+Angular logo
+Vue.js
+A Vue JS egy újabb népszerű JavaScript keretrendszer, mely 2014-ben jelent meg.
+
+Főbb tulajdonságok:
+beépített komponens CSS áttűnések és animációk létrehozásához kétirányú adatkötés könnyen tanulható könnyen integrálható kisméretű rugalmas Hivatalos weboldal
+Ön melyik keretrendszert választaná?
+Keretrendszer 
+Egyik sem
+Elküld
+Forrás: https://webiskola.hu/javascript-ismeretek/a-legjobb-javascript-keretrendszerek

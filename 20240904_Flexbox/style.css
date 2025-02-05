@@ -1,0 +1,23 @@
+nav{
+    background-color: lightgreen;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+main{
+    width: 100%;
+    height: 300px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+}

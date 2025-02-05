@@ -1,0 +1,30 @@
+Events - https://www.w3schools.com/jsref/dom_obj_event.asp
+- load
+
+- click
+- dblclick
+
+- animationend, transitionend
+
+- keydown, keypress, keyup
+- mouse*, wheel
+
+- blur, focusout
+- focus, focusin
+
+- toggle
+
+FORM
+- copy, cut, paste
+
+- change
+- input
+- select
+
+- invalid
+- reset, submit
+- search (browser support)
+
+ADVANCED
+- drag
+- drop

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form onsubmit="formSubmitted()" onreset="formReset()">
+        <div>
+            <label for="name">Név:</label>
+            <input type="text" name="name" id="name" oncopy="copied(this)" oncut="copied(this)">
+        </div>
+
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" 
+            oncopy="copied(this)" 
+            oncut="copied(this)" 
+            oninput="emailInput()"
+            onblur="emailChanged()">
+        </div>
+        
+        <div>
+            <label for="pwd1">Jelszó:</label>
+            <input type="password" name="pwd1" id="pwd1" onpaste="pwdPasted(event)">
+        </div>
+        
+        <div>
+            <label for="pwd2">Jelszó mégegyszer:</label>
+            <input type="password"  name="pwd2" id="pwd2" onpaste="pwdPasted(event)">
+        </div>
+        <input type="submit" value="Regisztrál">
+        <input type="reset" value="Reset" > 
+    </form>
+
+    <div id="message" onanimationend="removeAnimation()"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

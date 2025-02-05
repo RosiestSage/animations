@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#canvas{
+    border: 1px solid black;
+}
+
+#almaCounter{
+    margin-top: 5%;
+    text-align: center;
+    font-size: 100px;
+}

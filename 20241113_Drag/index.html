@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and drop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="names" class="box"  ondragover="allowDrop(event)" ondrop="drop(event)">
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop()">Páli Dávid</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Parádi Martin</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Pilter Barnabás József</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Pintér Gábor</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Pop Dávid Tibor</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Rozs Barbara</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Sarmon Bálint</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Szabó Péter</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Szédelyi Ábris Péter</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Tankó Ádám</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Torma Alex</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Tóth Barna Róbert</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Tóth Bendegúz</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Tóth Zsombor Balázs</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Varga Dániel</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Zoltai Tamás</p>
+            <p draggable="true" ondragstart="dragStart(event)" ondragend="dragStop(event)">Zsigmond Attila László</p>
+        </div>
+        <div id="mark5" class="box" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div id="mark4" class="box" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div id="mark3" class="box" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+        <div id="mark2" class="box" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+body{
+    display: flex;
+}
+
+.kartya{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 4px 4px 10px;
+    border-radius: 15px;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.felso, .also{
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.felso #balfelso img, .also #jobbalso img{
+    height: 75px;
+}
+
+.sarkiszoveg{
+    height: 75px;
+    font-size: 75px;
+    font-weight: bold;
+}
+
+#kep img{
+    height: 200px;
+}
+
+#kep{
+    display: flex;
+    justify-content: center;
+}
+
+.also #balalso, .also #jobbalso{
+    rotate: 180deg;
+}
+
+.adatok{
+    margin: 0 0 0 20px;
+    border: 2px solid black;
+    width: 250px;
+}
+
+#asz {
+    top: 3%;
+    position: absolute;
+    height: 100px;
+    width: 55px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+#asz img{
+    height: 50px;
+    width: 50px;
+}
+
+#asz p{
+    margin: 0;
+    height: 75px;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#asz_also{
+    top: 33%;
+    left: 220px;
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    rotate: 180deg;
+
+}
+
+#asz_also img{
+    height: 50px;
+}
+
+#asz_also{
+    margin: 0;
+    text-align: center;
+}
+
+.asz_betu{
+    margin: 0;
+    height: 75px;
+    font-size: 75px;
+    font-weight: bold;
+}

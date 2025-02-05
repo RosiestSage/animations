@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="data">
+            <form action="">
+                <div>
+                    <label for="text">Felirat</label>
+                    <input type="text" id="text"
+                    oninput="textChanged()">
+                </div>
+
+                <div>
+                    <label for="size">Betűméret</label>
+                    <input type="number" id="size" min="1" onblur="sizeChanged()">
+                </div>
+
+                <div>
+                    <label for="bgcolor" >Háttérszín</label>
+                    <input type="color" id="bgcolor" oninput="colorChanged()">
+                </div>
+
+                <div>
+                    <label>Kép módosítás</label>
+                    <input type="radio" id="leftside" value="left" checked name="side" >
+                    <label for="leftside">Bal oldali</label>
+                    <input type="radio" id="rightside" value="right" name="side" >
+                    <label for="rightside">Jobb oldali</label>
+
+                </div>
+
+                <div>
+                    <label for="photo">Fénykép</label>
+                    <select name="photo" id="photo" onchange="photoChanged()"> 
+                        <option value=""></option>
+                        <option value="versailles">Versailles</option>
+                        <option value="Champs-Elysees">Champs elysees</option>
+                        <option value="latkep">Párizsi látkép</option>
+                        <option value="disneyland">Disneyland</option>
+                        <option value="eiffel-torony">Eiffel torony</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="border">Keret a képek körül</label>
+                    <input type="checkbox" id="border" onchange="borderChanged()">
+                </div>
+            </form>
+        </div>
+
+        <div class="card">
+            <h1 id="card-text"></h1>
+            <div id="pictures">
+                <img src="" alt="" id="left-image">
+                <img src="" alt="" id="right-image">
+            </div>
+
+        </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

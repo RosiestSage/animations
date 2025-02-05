@@ -1,0 +1,16 @@
+.box {
+    width: 18%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.box p{
+    margin: 5px;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+}

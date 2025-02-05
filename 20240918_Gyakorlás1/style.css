@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-boxs;
+}
+
+.narrow, section#services, section#workers{
+    width: 60%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li{
+    list-style-type: none;
+    padding: 0 5px;
+}
+
+section#banner{
+    background-color: lightskyblue;
+    background-image: url(img/intro-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+}
+
+section#services{
+    display: flex;
+    justify-content: space-between;
+}
+
+section#services article{
+    width: 33%;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+section#services article img{
+    width: 100%;
+    max-width: 300px;
+}
+
+section#services h1{
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+section#search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/bg-subs.jpg);
+    height: 300px;
+}
+
+section#search h1{
+    text-align: center;
+    font-size: 300%;
+    color: blue;
+}
+
+section#workers .worker-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+section#workers h1, section#workers p{
+    text-align: center;
+}
+
+section#workers .worker-cards div{
+    width: 25%;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+section#workers .worker-cards div img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .narrow, section#services, section#workers{
+        width: 100%;
+        margin: 0 ;
+    }
+
+}
+
+@media (max-width: 700px) {
+    section#workers .worker-cards{
+        flex-wrap: wrap;
+    }
+
+    section#workers .worker-cards div{
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    header ul{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        display: block;
+    }
+
+    section#services{
+        display: block;
+
+    }
+
+    section#services article{
+        width: 100%;
+        border-radius: 5px;
+        border: 1px solid #999;
+        padding: 10px 0;
+        margin: 10px 0;
+    }
+
+}
+
+@media (max-width: 400px) {
+    section#workers .worker-cards{
+        flex-wrap: wrap;
+    }
+
+    section#workers .worker-cards div{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    section#search h1{
+        font-size: 200%;
+    }
+
+}
+
+
+
+
+/* #kep{
+    rotate: -20deg;
+} */

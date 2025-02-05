@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="init()">
+    
+    
+    <div class="container">
+        <img src="MainAfter.jpg" id="image" onclick="imageClicked()" onload="imageLoaded()" ondblclick="imageDoubleClicked()"
+        onmouseenter="imageMouseEnter()"
+        onmouseleave="imageMouseLeave()"
+        onwheel="imageWheel(event)">
+
+
+        <div id="rectangle" 
+        onanimationend="console.log('Animation ended')"
+        onanimationstart="console.log('Animation started')"></div>
+
+        <input type="text" id="text" 
+        onkeydown="console.log('key down')"
+        onblur="textBlured()"
+        onkeyup="textKeyUp()">
+
+        <p class="message"></p>
+
+        <details ontoggle="console.log('toggled')">
+            <summary>Lorem ipsum dolor sit amet.</summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non maiores asperiores accusamus aperiam corporis aut minus officia quam iste adipisci magni tempore tenetur, corrupti, architecto doloribus porro quasi eligendi. Veniam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur magni recusandae iste velit facere error ab deserunt quae, esse officiis fugit, vitae ad laboriosam ex soluta tempore quos voluptatum odit?
+        </details>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+#message{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: aquamarine;
+    color: darkgreen;
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0;
+    animation-duration: 5s;
+}
+
+@keyframes message{
+    0%{opacity: 0;}
+    25%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{opacity: 0;}
+}
